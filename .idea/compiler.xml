@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hmilyaccount" />
+        <module name="hmilyorder" />
+        <module name="hmilyeureka" />
+        <module name="hmilyinventory" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hmilyaccount" options="-parameters" />
+      <module name="hmilyeureka" options="-parameters" />
+      <module name="hmilyinventory" options="-parameters" />
+      <module name="hmilyorder" options="-parameters" />
+    </option>
+  </component>
+</project>
